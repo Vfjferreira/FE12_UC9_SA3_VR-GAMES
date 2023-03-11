@@ -13,7 +13,7 @@
 .conteudo-banner h1{
  color: white;    
  font-family: "Inter";
- font-size: 90px;
+ font-size: 10px;
  text-indent: -100px;
  
 
@@ -21,14 +21,14 @@
 .conteudo-banner h2{
  color: white;    
  font-family: "Inter";
- font-size: 90px;
+ font-size: 70px;
  text-indent: -270px;
  
 }
 .conteudo-banner h3{
  color: white;    
  font-family: "Inter";
- font-size: 90px;
+ font-size: 70px;
  text-indent: -100px;
 }    
 
@@ -177,7 +177,7 @@ margin: auto;
 }
 .cards-1{
  list-style: none;
- width: 590px;
+ width: 580px;
  height: 320px;
  display: flex;
 }

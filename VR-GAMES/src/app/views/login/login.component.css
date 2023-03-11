@@ -1,0 +1,28 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+    background-color: #3d2f4bea;
+}
+
+#section-login{
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid #be2222;
+    padding: 10px 20px;
+    background-color: white ;
+}
+
+.btn{
+    
+    background-color: #be2222;
+    border: 1px solid #be2222;
+}
+
+h2{
+    color: #be2222;
+
+}
+

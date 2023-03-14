@@ -1,988 +1,1006 @@
-
-
-.banner{
-    height: 820px;
-    background-image: url(/assets/img/banner.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.banner {
+  height: 820px;
+  background-image: url(/assets/img/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-
-
-.conteudo-banner h1{
- color: white;    
- font-family: "Inter";
- font-size: 10px;
- text-indent: -100px;
- 
-
+.conteudo-banner h1 {
+  color: white;
+  font-family: "Inter";
+  font-size: 60px;
+  text-indent: -100px;
 }
-.conteudo-banner h2{
- color: white;    
- font-family: "Inter";
- font-size: 70px;
- text-indent: -270px;
- 
+.conteudo-banner h2 {
+  color: white;
+  font-family: "Inter";
+  font-size: 60px;
+  text-indent: -230px;
 }
-.conteudo-banner h3{
- color: white;    
- font-family: "Inter";
- font-size: 70px;
- text-indent: -100px;
-}    
-
-.conteudo-banner a{
- padding: 10px;
- background-color: red ;
- color: white;    
- font-family: "inter";
- text-decoration: none;
- text-transform: uppercase;
- font-size: 22px;
- border-radius: 5px;
-}
-.conteudo-banner{
- width: 460px;
- height: 360px;
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: space-between;
+.conteudo-banner h3 {
+  color: white;
+  font-family: "Inter";
+  font-size: 60px;
+  text-indent: -100px;
 }
 
-.posicionamento-banner{
- display: flex;
- justify-content: flex-start;
- align-items: center;
- height: 100%;
-
+.conteudo-banner a {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  font-family: "inter";
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 22px;
+  border-radius: 5px;
 }
-.jogos{
- background-color: black;
- height: 120px;
-}
-
-.posicionamento-jogos{
- height: 100%;
-}
-
-.container{
- max-width: 1450px;
-} 
-
-.logo-jogo{
- height: 65px;
- width: 130px;
+.conteudo-banner {
+  width: 460px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.f122{
- height: 55px;
- width: 240px; 
+.posicionamento-banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+.jogos {
+  background-color: black;
+  height: 120px;
 }
 
-.dcs-world{
- height: 72px;
- width: 160px;
+.posicionamento-jogos {
+  height: 100%;
 }
 
-.cityz{
- height: 84px;
- width: 118px;
+.container {
+  max-width: 1450px;
 }
 
-.war{
- height: 90px;
- width: 160px;
+.logo-jogo {
+  height: 65px;
+  width: 130px;
 }
 
-
-
-.container-videos{
-     background-color: #3d2f4bea;
-     box-sizing: border-box;
+.f122 {
+  height: 55px;
+  width: 240px;
 }
-.container-videos h4{
- font-size: 30px;
- color: white;
- text-align: center;
- font-weight: 800;
- font-family: "Inter";
- text-transform: uppercase;
- padding-top: 80px;
- margin-left: auto;
- margin-right: auto;   
+
+.dcs-world {
+  height: 72px;
+  width: 160px;
+}
+
+.cityz {
+  height: 84px;
+  width: 118px;
+}
+
+.war {
+  height: 90px;
+  width: 160px;
+}
+
+.container-videos {
+  background-color: #3d2f4bea;
+  box-sizing: border-box;
+}
+.container-videos h4 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-weight: 800;
+  font-family: "Inter";
+  text-transform: uppercase;
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .video-jogos1 {
- max-width: 827px;
- min-height: 509px;
- display: block;
- margin-left: auto;
- margin-right: auto;
- padding-top: 60px;
+  max-width: 827px;
+  min-height: 509px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
 }
 .video-jogos2 {
- max-width: 827px;
- min-height: 509px;
- display: block;
- margin-left: auto;
- margin-right: auto;
- padding-top: 80px;
- 
+  max-width: 827px;
+  min-height: 509px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
 }
 .video-jogos3 {
- max-width: 827px;
- min-height: 509px;
- display: block;
- margin-left: auto;
- margin-right: auto;
- padding-top: 80px;
- padding-bottom: 150px;
-}    
-.cards{
- 
- width: 100%;
- background-color: #474747;
- box-sizing: border-box;
- display: flex;
+  max-width: 827px;
+  min-height: 509px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 150px;
 }
-.card-box{
- width: 1280px;
- display: block;
- margin: auto;
- padding-top: 60px;
- justify-content: center;
- 
+.cards {
+  width: 100%;
+  background-color: #474747;
+  box-sizing: border-box;
+  display: flex;
 }
-.card-box h4{
- font-size: 25px;
- color: white;
- font-weight: 580;
- font-family: "Inter";
- text-transform: uppercase;
- text-indent: 50px; 
- padding-bottom: 20px;   
+.card-box {
+  width: 1280px;
+  display: block;
+  margin: auto;
+  padding-top: 60px;
+  justify-content: center;
 }
-.container-card{
-margin: auto;
-
+.card-box h4 {
+  font-size: 25px;
+  color: white;
+  font-weight: 580;
+  font-family: "Inter";
+  text-transform: uppercase;
+  text-indent: 50px;
+  padding-bottom: 20px;
 }
-.cards1-posicao{
- list-style: none;
- display: flex;
- justify-content: space-around;
- align-items: center;
- padding: auto;
- 
+.container-card {
+  margin: auto;
 }
-.cards-1{
- list-style: none;
- width: 580px;
- height: 320px;
- display: flex;
+.cards1-posicao {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: auto;
 }
-.cards2-posicao{
- list-style: none;
- display: flex;
- justify-content: space-around;
- align-items: center;
- padding: auto;
+.cards-1 {
+  list-style: none;
+  width: 580px;
+  height: 320px;
+  display: flex;
 }
-.cards-2{
- list-style: none;
- width: 380px;
- height: 200px;
- display: flex;
+.cards2-posicao {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: auto;
 }
-.cards3-posicao{
- list-style: none;
- display: flex;
- justify-content: space-around;
- align-items: center;
- padding: auto;
+.cards-2 {
+  list-style: none;
+  width: 380px;
+  height: 200px;
+  display: flex;
 }
-.cards-3{
- list-style: none;
- width: 280px;
- height: 175px;
- display: flex;
+.cards3-posicao {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: auto;
 }
-.carrocel{
- height: 600px;
- background-color: black;
- box-sizing: border-box;
+.cards-3 {
+  list-style: none;
+  width: 280px;
+  height: 175px;
+  display: flex;
 }
-.carrocel-banner h4{
- font-size: 20px;
- color: white;
- font-weight: 580;
- font-family: "Inter";
- text-transform: uppercase;
- text-indent: 30px; 
- padding-top: 0px;
- padding-bottom: 25px;   
+.carrocel {
+  height: 600px;
+  background-color: black;
+  box-sizing: border-box;
 }
-.carrocel-banner{
-     width: 705px;
-     padding: 0px;
-     padding-top: 30px;
-     margin: auto;
+.carrocel-banner h4 {
+  font-size: 20px;
+  color: white;
+  font-weight: 580;
+  font-family: "Inter";
+  text-transform: uppercase;
+  text-indent: 30px;
+  padding-top: 0px;
+  padding-bottom: 25px;
 }
-.carousel{
- margin: auto;
- width: 100%;
- height: 490px;
- align-items: center;
- max-height: 490px;
- max-width: 705px;  
- display: flex;
- padding-bottom: 80px;
-  
+.carrocel-banner {
+  width: 705px;
+  padding: 0px;
+  padding-top: 30px;
+  margin: auto;
 }
-.w-100{
- height:470px;
- max-height: 470px;
- max-width: 705px;
- align-items: center;
+.carousel {
+  margin: auto;
+  width: 100%;
+  height: 490px;
+  align-items: center;
+  max-height: 490px;
+  max-width: 705px;
+  display: flex;
+  padding-bottom: 80px;
+}
+.w-100 {
+  height: 470px;
+  max-height: 470px;
+  max-width: 705px;
+  align-items: center;
 }
 
-.imgback{
-     height: 900px;
-     background-color: #3d2f4bea;
-     box-sizing: border-box; 
-     position: relative;
-    
+.imgback {
+  height: 900px;
+  background-color: #3d2f4bea;
+  box-sizing: border-box;
+  position: relative;
 }
-.videos{
- width: 100%;
- height: 100%;
- position: absolute;
- top: 0;
- left: 0; 
- box-sizing: border-box; 
-  
+.videos {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
 }
 
-.video1{
- width: 500px;
- height: 300px;
- display: block;
- padding-left: 0px;
- padding-top: 100px;
- margin-left: auto;
- margin-right: auto;
+.video1 {
+  width: 500px;
+  height: 300px;
+  display: block;
+  padding-left: 0px;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.video2{
- width: 500px;
- height: 300px;
- display: block;
- padding-left: 0px;
- padding-top: 200px;
- margin-left: auto;
- margin-right: auto;
+.video2 {
+  width: 500px;
+  height: 300px;
+  display: block;
+  padding-left: 0px;
+  padding-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-footer{
- font-family: "Inter";
- background-color: #474747;
- padding: 50px 0;
- box-sizing: border-box;
-} 
-.container-footer{
- max-width: 1350px;
- padding: 0 4%;
- margin: auto; 
- padding-top: 25px;
+footer {
+  font-family: "Inter";
+  background-color: #474747;
+  padding: 50px 0;
+  box-sizing: border-box;
 }
-.row-footer{
- display: flex;
- flex-wrap: wrap;
+.container-footer {
+  max-width: 1350px;
+  padding: 0 4%;
+  margin: auto;
+  padding-top: 25px;
 }
-.footer-col{
- width: 25%;
- padding: 0 15px;
- 
+.row-footer {
+  display: flex;
+  flex-wrap: wrap;
 }
-.footer-col h4{
- font-size: 16px;
- color: white;
- margin-bottom: 20px;
- font-weight: 500;
- position: relative;
- text-transform: uppercase;
- 
- 
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
 }
-.footer-col ul{
- list-style: none;
- margin-left: -28px;
- 
-
+.footer-col h4 {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: 500;
+  position: relative;
+  text-transform: uppercase;
 }
-.footer-col ul li{
- margin: 10px 0;
+.footer-col ul {
+  list-style: none;
+  margin-left: -28px;
 }
-.footer-col ul li a{
- font-size: 16px;
- text-transform: capitalize;
- color: white;
- text-decoration: none;
- font-weight: 300;
- display: block;
- transition: all 0.1s ease;
- 
+.footer-col ul li {
+  margin: 10px 0;
 }
-.footer-col ul li a:hover{
- color: #be2222;
- padding-left: 3px;
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.1s ease;
+}
+.footer-col ul li a:hover {
+  color: #be2222;
+  padding-left: 3px;
 }
 .logofooter {
-
- padding-left: 0px;
- padding-top: 40px;
-      
+  padding-left: 0px;
+  padding-top: 40px;
 }
-.logofooter .footer-logo{
- padding-left: -80px;
- max-width: 245px;
+.logofooter .footer-logo {
+  padding-left: -80px;
+  max-width: 245px;
 }
 
-
-.footer-col .medias-socias{
- margin-top: 30px;
+.footer-col .medias-socias {
+  margin-top: 30px;
 }
-.footer-col .medias-socias a{
- display: inline-flex;
- align-items: center;
- justify-content: center;
- height: 40px;
- width: 40px;
- margin: 0 10px 10px 0;
- text-decoration: none;
- border-radius: 50%;
- color: white;
- border: 1px solid white;
- transition: all 0.5s ease;
+.footer-col .medias-socias a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+  border: 1px solid white;
+  transition: all 0.5s ease;
 }
-.footer-col .medias-socias a i{
- font-size: 20px;
+.footer-col .medias-socias a i {
+  font-size: 20px;
 }
-.footer-col .medias-socias a:hover{
- color: #be2222;
- background-color: white;
+.footer-col .medias-socias a:hover {
+  color: #be2222;
+  background-color: white;
 }
-.footer-col .form-sub input{
- width: 100%;
- padding: 10px;
- font-size: 15px;
- outline: none;
- border: 1px solid #be2222;
- color: #be2222;
- background-color: white;
+.footer-col .form-sub input {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid #be2222;
+  color: #be2222;
+  background-color: white;
 }
-.footer-col .form-sub input::placeholder{
- color: #be2222;
+.footer-col .form-sub input::placeholder {
+  color: #be2222;
 }
-.footer-col .form-sub button{
- width: 100%;
- margin-top: 10px;
- padding: 10px; 
- font-size: 17px;
- outline: none;
- border: none;
- cursor: pointer;
- color: white;
- border-radius: 3px;
- font-weight: bold;
- background-color: #be2222;        
-}
-
-
-
-
-
-
-@media screen and (max-width: 1450px){
- .container-grid{
-     width: 1200px;
- }
- .conteudo-banner h1{
-     color: white;    
-     font-family: "Inter";
-     font-size: 90px;
-     text-indent: -80px;
-     
- 
- }
- .conteudo-banner h2{
-     color: white;    
-     font-family: "Inter";
-     font-size: 90px;
-     text-indent: -260px;
-     
- }
- .conteudo-banner h3{
-     color: white;    
-     font-family: "Inter";
-     font-size: 90px;
-     text-indent: -70px;
- }  
- .carrocel{
-     height: 548px;
-     background-color: black;
- }
- .carrocel-banner{
-
-     padding-top: 40px;
-     padding-left: 320px;
-     padding-right: 320px;
-     
- }
- .carrocel-banner{
-     width: 705px;
-     padding: 0px;
-     padding-top: 30px;
-     margin: auto;
- }
- 
- .carousel{
-     margin: auto;
-     width: 100%;
-     height: 490px;
-     justify-items: center;
-     display: flex;
-     align-items: center;  
-     max-height: 490px;
-     max-width: 705px;     
- }
- .w-100{
-     height:470px;
-     max-height: 470px;
-     max-width: 705px;
-     align-items: center;
-     
- }
-}   
-
-
-@media screen and (max-width: 1200px){
- .container-grid{
-     width: 1000px;
- }
- .conteudo-banner h1{
-     color: white;    
-     font-family: "Inter";
-     font-size: 90px;
-     text-indent: -80px;
-     
- 
- }
- .conteudo-banner h2{
-     color: white;    
-     font-family: "Inter";
-     font-size: 90px;
-     text-indent: -260px;
-     
- }
- .conteudo-banner h3{
-     color: white;    
-     font-family: "Inter";
-     font-size: 90px;
-     text-indent: -70px;
- }  
-
- .container{
-     max-width: 1100px;
- } 
- 
- .logo-jogo{
-     height: 70px;
-     width: 120px;
- }
-  
- .f122{
-     height: 60px;
-     width: 200x; 
- }
- 
- .dcs-world{
-     height: 60px;
-     width: 130px;
- }
- 
- .cityz{
-     height: 70px;
-     width: 120px;
- }
- 
- .war{
-     height: 80px;
-     width: 140px;
- }  
- 
- .card-box{
-     width: 1000px;
-     display: block;
-     margin: auto;
-     padding-top: 60px;
-     justify-content: center;
-     
- }
- .container-card{
-   margin: auto;
-   
- }
- .cards1-posicao{
-     list-style: none;
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     padding: auto;
-     
- }
- .cards-1{
-     list-style: none;
-     width: 470px;
-     height: 250px;
-     display: flex;
- }
- .cards2-posicao{
-     list-style: none;
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     padding: auto;
- }
- .cards-2{
-     list-style: none;
-     width: 310px;
-     height: 180px;
-     display: flex;
- }
- .cards3-posicao{
-     list-style: none;
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     padding: auto;
- }
- .cards-3{
-     list-style: none;
-     width: 230px;
-     height: 135px;
-     display: flex;
- }
-
-
- .carrocel-banner{
-     width: 705px;
-     padding: 0px;
-     padding-top: 30px;
-     margin: auto;
- }
- 
- .carousel{
-     
-     width: 500%;
-     height: 490px;
-     justify-items: center;
-     display: flex;
-     align-items: center;  
- }
- .w-100{
-     height:470px;
-     max-height: 470px;
-     max-width: 705px;
-     align-items: center;
-     
- }
- .videos{
-     width: 100%;
-     height: 100%;
-     position: absolute;
-     top: 0;
-     left: 0; 
-     box-sizing: border-box; 
-
-}  
-.video1{
- width: 500px;
- height: 300px;
- display: block;
- padding-left: 0px;
- padding-top: 100px;
- margin-left: auto;
- margin-right: auto;
-}
-.video2{
- width: 500px;
- height: 300px;
- display: block;
- padding-left: 0px;
- padding-top: 200px;
- margin-left: auto;
- margin-right: auto;
-}
+.footer-col .form-sub button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 3px;
+  font-weight: bold;
+  background-color: #be2222;
 }
 
-
-@media screen and (max-width: 1000px){
- #bars{
-   display: inline-block;
-}
-
- .menu{
-     display: none;
-     position: absolute;
-     top: 100px;
-     right: 0px;
-     width: 300px;
-     flex-direction: column;
-     justify-content: space-around;
-     align-items: center;
-
-     background-color: #474747;
-     height: 400px;
- }
-
- .menu-ativo{
-     display: flex;
- }
-
- .menu a{
-     font-size: 20px;
- }
- .container-grid{
-     width: 800px;
- }
-
- .conteudo-banner h1{
-     color: white;    
-     font-family: "Inter";
-     font-size: 90px;
-     text-indent: -30px;
-     
- 
- }
- .conteudo-banner h2{
-     color: white;    
-     font-family: "Inter";
-     font-size: 90px;
-     text-indent: -230px;    
-     
- }
- .conteudo-banner h3{
-     color: white;    
-     font-family: "Inter";
-     font-size: 90px;
-     text-indent: -10px;
- }  
-
- .posicionamento-jogos{
-     height: 100%;
- }   
-     .container{
-         max-width: 1000px;
-     } 
-     
-     .logo-jogo{
-         height: 50px;
-         width: 100px;
-     }
-      
-     .f122{
-         height: 45px;
-         width: 185px; 
-     }
-     
-     .dcs-world{
-         height: 60px;
-         width: 120px;
-     }
-     
-     .cityz{
-         height: 70px;
-         width: 100px;
-     }
-     
-     .war{
-         height: 70px;
-         width: 130px;
-     }    
-     
-
- .card-box{
-     width: 800px;
-     display: block;
-     margin: auto;
-     padding-top: 60px;
-     justify-content: center;
-     text-align: center;
- }
- .card-box h4{
-     font-size: 25px;
-     color: white;
-     text-indent: -350px;
-     font-weight: 580;
-     position: relative;
-     text-transform: uppercase;
-     font-family: "Inter";
-     padding-bottom: 20px;
-     
- }
-
- .container-card{
-   margin: auto;
-   width: 800px;
-   justify-content: center;
-
-
- }
- .cards1-posicao{
-    
-     display: block;
-     justify-content: space-between;
-     padding: 100px;
-     padding-top: 0px;
-     padding-bottom: 0px;
-     margin-bottom: 0px;
-     width: 800px;
- }
- .cards-1{
-     list-style: none;
-     width: 590px;
-     height: 320px;
-     margin: 15px 0;
- }
- .cards2-posicao{
-     list-style: none;
-     display: block;
-     justify-content: space-between;
-     padding: 100px;
-     padding-top: 0px;
-     padding-bottom: 0px;
-     margin-bottom: 0px;
-     width: 590px;
- }
- .cards-2{
-     list-style: none;
-     width: 590px;
-     height: 320px;
-     margin: 15px 0;
- }
- .cards3-posicao{
-     list-style: none;
-     display: block;
-     justify-content: space-between;
-     padding: 100px;
-     padding-top: 0px;
-     padding-bottom: 0px;
-     margin-bottom: 0px;
-     width: 590px;
- }
- .cards-3{
-     list-style: none;
-     width: 590px;
-     height: 320px;
-     margin: 15px 0;
- }  
-
- .carrocel-banner{
-     width: 705px;
-     padding: 0px;
-     padding-top: 30px;
-     margin: auto;
- }
- 
- .carousel{
-     
-     width: 500%;
-     height: 490px;
-     justify-items: center;
-     display: flex;
-     align-items: center;  
- }
- .w-100{
-     height:470px;
-     max-height: 470px;
-     max-width: 705px;
-     align-items: center;
-     
- }
- .videos{
-     width: 100%;
-     height: 100%;
-     position: absolute;
-     top: 0;
-     left: 0; 
-     box-sizing: border-box; 
-
-}  
-.video1{
- width: 500px;
- height: 300px;
- display: block;
- padding-left: 0px;
- padding-top: 100px;
- margin-left: auto;
- margin-right: auto;
-}
-.video2{
- width: 500px;
- height: 300px;
- display: block;
- padding-left: 0px;
- padding-top: 200px;
- margin-left: auto;
- margin-right: auto;
-}
- .footer-col{
-     width: 50%;
-     margin-bottom: 30px;
- }
-}
-
-
-
-
-
-@media screen and (max-width:800px) {
- #bars{
-     display: inline-block;
+@media screen and (max-width: 1450px) {
+  .container-grid {
+    width: 1200px;
   }
-  
-   .menu{
-       display: none;
-       position: absolute;
-       top: 100px;
-       right: 0px;
-       width: 300px;
-       flex-direction: column;
-       justify-content: space-around;
-       align-items: center;
+  .conteudo-banner h1 {
+    color: white;
+    font-family: "Inter";
+    font-size: 60px;
+    text-indent: -80px;
+  }
+  .conteudo-banner h2 {
+    color: white;
+    font-family: "Inter";
+    font-size: 60px;
+    text-indent: -230px;
+  }
+  .conteudo-banner h3 {
+    color: white;
+    font-family: "Inter";
+    font-size: 60px;
+    text-indent: -70px;
+  }
+  .carrocel {
+    height: 548px;
+    background-color: black;
+  }
+  .carrocel-banner {
+    padding-top: 40px;
+    padding-left: 320px;
+    padding-right: 320px;
+  }
+  .carrocel-banner {
+    width: 705px;
+    padding: 0px;
+    padding-top: 30px;
+    margin: auto;
+  }
 
-       background-color: #474747;
-       height: 400px;
-   }
-  
-   .menu-ativo{
-       display: flex;
-   }
-
-   .menu a{
-       font-size: 20px;
-   }
-   .container-grid{
-       width: 600px;
-   }
-
-   .conteudo-banner h1{
-       color: white;    
-       font-family: "Inter";
-       font-size: 90px;
-       text-indent: -30px;
-       
-   
-   }
-   .conteudo-banner h2{
-       color: white;    
-       font-family: "Inter";
-       font-size: 90px;
-       text-indent: -230px;
-       
-   }
-   .conteudo-banner h3{
-       color: white;    
-       font-family: "Inter";
-       font-size: 90px;
-       text-indent: -10px;
-   }    
- 
-
-   .container{
-     max-width: 800px;
-     
- } 
- 
- .logo-jogo{
-     height: 40px;
-     width: 70px;
- }
-  
- .f122{
-     height: 40px;
-     width: 160px; 
- }
- 
- .dcs-world{
-     height: 44px;
-     width: 98px;
- }
- 
- .cityz{
-     height: 54px;
-     width: 82px;
- }
- 
- .war{
-     height: 60px;
-     width: 110px;
- }
- 
- 
- .carrocel-banner{
-     width: 705px;
-     padding: 0px;
-     padding-top: 30px;
-     margin: auto;
- }
- 
- .carousel{
-     
-     width: 500%;
-     height: 490px;
-     justify-items: center;
-     display: flex;
-     align-items: center;  
- }
- .w-100{
-     height:470px;
-     max-height: 470px;
-     max-width: 705px;
-     align-items: center;
-     
- }
- .videos{
-     width: 100%;
-     height: 100%;
-     position: absolute;
-     top: 0;
-     left: 0; 
-     box-sizing: border-box; 
-
-}  
-.video1{
- width: 500px;
- height: 300px;
- display: block;
- padding-left: 0px;
- padding-top: 100px;
- margin-left: auto;
- margin-right: auto;
+  .carousel {
+    margin: auto;
+    width: 100%;
+    height: 490px;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    max-height: 490px;
+    max-width: 705px;
+  }
+  .w-100 {
+    height: 470px;
+    max-height: 470px;
+    max-width: 705px;
+    align-items: center;
+  }
 }
-.video2{
- width: 500px;
- height: 300px;
- display: block;
- padding-left: 0px;
- padding-top: 200px;
- margin-left: auto;
- margin-right: auto;
+
+@media screen and (max-width: 1200px) {
+  .container-grid {
+    width: 1000px;
+  }
+  .conteudo-banner h1 {
+    color: white;
+    font-family: "Inter";
+    font-size: 60px;
+    text-indent: -80px;
+  }
+  .conteudo-banner h2 {
+    color: white;
+    font-family: "Inter";
+    font-size: 60px;
+    text-indent: -230px;
+  }
+  .conteudo-banner h3 {
+    color: white;
+    font-family: "Inter";
+    font-size: 60px;
+    text-indent: -70px;
+  }
+
+  .container {
+    max-width: 1100px;
+  }
+
+  .logo-jogo {
+    height: 70px;
+    width: 120px;
+  }
+
+  .f122 {
+    height: 60px;
+    width: 200x;
+  }
+
+  .dcs-world {
+    height: 60px;
+    width: 130px;
+  }
+
+  .cityz {
+    height: 70px;
+    width: 120px;
+  }
+
+  .war {
+    height: 80px;
+    width: 140px;
+  }
+
+  .card-box {
+    width: 1000px;
+    display: block;
+    margin: auto;
+    padding-top: 60px;
+    justify-content: center;
+  }
+  .container-card {
+    margin: auto;
+  }
+  .cards1-posicao {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: auto;
+  }
+  .cards-1 {
+    list-style: none;
+    width: 470px;
+    height: 250px;
+    display: flex;
+  }
+  .cards2-posicao {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: auto;
+  }
+  .cards-2 {
+    list-style: none;
+    width: 310px;
+    height: 180px;
+    display: flex;
+  }
+  .cards3-posicao {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: auto;
+  }
+  .cards-3 {
+    list-style: none;
+    width: 230px;
+    height: 135px;
+    display: flex;
+  }
+
+  .carrocel-banner {
+    width: 705px;
+    padding: 0px;
+    padding-top: 30px;
+    margin: auto;
+  }
+
+  .carousel {
+    width: 500%;
+    height: 490px;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+  }
+  .w-100 {
+    height: 470px;
+    max-height: 470px;
+    max-width: 705px;
+    align-items: center;
+  }
+  .videos {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+  }
+  .video1 {
+    width: 500px;
+    height: 300px;
+    display: block;
+    padding-left: 0px;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .video2 {
+    width: 500px;
+    height: 300px;
+    display: block;
+    padding-left: 0px;
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
- 
- .footer-col{
-     width: 100%;
-     justify-content: center;
- }
+
+@media screen and (max-width: 1000px) {
+  #bars {
+    display: inline-block;
+  }
+
+  .menu {
+    display: none;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    width: 300px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #474747;
+    height: 400px;
+  }
+
+  .menu-ativo {
+    display: flex;
+  }
+
+  .menu a {
+    font-size: 20px;
+  }
+  .container-grid {
+    width: 800px;
+  }
+
+  .conteudo-banner h1 {
+    color: white;
+    font-family: "Inter";
+    font-size: 60px;
+    text-indent: -30px;
+  }
+  .conteudo-banner h2 {
+    color: white;
+    font-family: "Inter";
+    font-size: 60px;
+    text-indent: -230px;
+  }
+  .conteudo-banner h3 {
+    color: white;
+    font-family: "Inter";
+    font-size: 60px;
+    text-indent: -10px;
+  }
+
+  .posicionamento-jogos {
+    height: 100%;
+  }
+  .container {
+    max-width: 1000px;
+  }
+
+  .logo-jogo {
+    height: 50px;
+    width: 100px;
+  }
+
+  .f122 {
+    height: 45px;
+    width: 185px;
+  }
+
+  .dcs-world {
+    height: 60px;
+    width: 120px;
+  }
+
+  .cityz {
+    height: 70px;
+    width: 100px;
+  }
+
+  .war {
+    height: 70px;
+    width: 130px;
+  }
+
+  .card-box {
+    width: 800px;
+    display: block;
+    margin: auto;
+    padding-top: 60px;
+    justify-content: center;
+    text-align: center;
+  }
+  .card-box h4 {
+    font-size: 25px;
+    color: white;
+    text-indent: -350px;
+    font-weight: 580;
+    position: relative;
+    text-transform: uppercase;
+    font-family: "Inter";
+    padding-bottom: 20px;
+  }
+
+  .container-card {
+    margin: auto;
+    width: 800px;
+    justify-content: center;
+  }
+  .cards1-posicao {
+    display: block;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 800px;
+  }
+  .cards-1 {
+    list-style: none;
+    width: 590px;
+    height: 320px;
+    margin: 15px 0;
+  }
+  .cards2-posicao {
+    list-style: none;
+    display: block;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 590px;
+  }
+  .cards-2 {
+    list-style: none;
+    width: 590px;
+    height: 320px;
+    margin: 15px 0;
+  }
+  .cards3-posicao {
+    list-style: none;
+    display: block;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 590px;
+  }
+  .cards-3 {
+    list-style: none;
+    width: 590px;
+    height: 320px;
+    margin: 15px 0;
+  }
+
+  .carrocel-banner {
+    width: 705px;
+    padding: 0px;
+    padding-top: 30px;
+    margin: auto;
+  }
+
+  .carousel {
+    width: 500%;
+    height: 490px;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+  }
+  .w-100 {
+    height: 470px;
+    max-height: 470px;
+    max-width: 705px;
+    align-items: center;
+  }
+  .videos {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+  }
+  .video1 {
+    width: 500px;
+    height: 300px;
+    display: block;
+    padding-left: 0px;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .video2 {
+    width: 500px;
+    height: 300px;
+    display: block;
+    padding-left: 0px;
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #bars {
+    display: inline-block;
+  }
+
+  .menu {
+    display: none;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    width: 300px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #474747;
+    height: 400px;
+  }
+
+  .menu-ativo {
+    display: flex;
+  }
+
+  .menu a {
+    font-size: 20px;
+  }
+  .container-grid {
+    width: 600px;
+  }
+
+  .conteudo-banner h1 {
+    color: white;
+    font-family: "Inter";
+    font-size: 60px;
+    text-indent: -30px;
+  }
+  .conteudo-banner h2 {
+    color: white;
+    font-family: "Inter";
+    font-size: 60px;
+    text-indent: -230px;
+  }
+  .conteudo-banner h3 {
+    color: white;
+    font-family: "Inter";
+    font-size: 60px;
+    text-indent: -10px;
+  }
+
+  .container {
+    max-width: 800px;
+  }
+
+  .logo-jogo {
+    height: 40px;
+    width: 70px;
+  }
+
+  .f122 {
+    height: 40px;
+    width: 160px;
+  }
+
+  .dcs-world {
+    height: 44px;
+    width: 98px;
+  }
+
+  .cityz {
+    height: 54px;
+    width: 82px;
+  }
+
+  .war {
+    height: 60px;
+    width: 110px;
+  }
+
+  .card-box {
+    width: 800px;
+    display: block;
+    margin: auto;
+    padding-top: 60px;
+    justify-content: center;
+    text-align: center;
+  }
+  .card-box h4 {
+    font-size: 25px;
+    color: white;
+    text-indent: -350px;
+    font-weight: 580;
+    position: relative;
+    text-transform: uppercase;
+    font-family: "Inter";
+    padding-bottom: 20px;
+  }
+
+  .container-card {
+    margin: auto;
+    width: 800px;
+    justify-content: center;
+  }
+  .cards1-posicao {
+    display: block;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 800px;
+  }
+  .cards-1 {
+    list-style: none;
+    width: 590px;
+    height: 320px;
+    margin: 15px 0;
+  }
+  .cards2-posicao {
+    list-style: none;
+    display: block;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 590px;
+  }
+  .cards-2 {
+    list-style: none;
+    width: 590px;
+    height: 320px;
+    margin: 15px 0;
+  }
+  .cards3-posicao {
+    list-style: none;
+    display: block;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 590px;
+  }
+  .cards-3 {
+    list-style: none;
+    width: 590px;
+    height: 320px;
+    margin: 15px 0;
+  }
+
+  .carrocel-banner {
+    width: 705px;
+    padding: 0px;
+    padding-top: 30px;
+    margin: auto;
+  }
+
+  .carousel {
+    width: 500%;
+    height: 490px;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+  }
+  .w-100 {
+    height: 470px;
+    max-height: 470px;
+    max-width: 705px;
+    align-items: center;
+  }
+
+  .carrocel-banner {
+    width: 705px;
+    padding: 0px;
+    padding-top: 30px;
+    margin: auto;
+  }
+
+  .carousel {
+    width: 500%;
+    height: 490px;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+  }
+  .w-100 {
+    height: 470px;
+    max-height: 470px;
+    max-width: 705px;
+    align-items: center;
+  }
+  .videos {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+  }
+  .video1 {
+    width: 500px;
+    height: 300px;
+    display: block;
+    padding-left: 0px;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .video2 {
+    width: 500px;
+    height: 300px;
+    display: block;
+    padding-left: 0px;
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-col {
+    width: 100%;
+    justify-content: center;
+  }
 }

@@ -19,6 +19,7 @@ import { LoginComponent } from './views/login/login.component';
 import { JogosComponent } from './views/jogos/jogos.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './views/menu/menu.component';
+import { RodapeComponent } from './views/rodape/rodape.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { MenuComponent } from './views/menu/menu.component';
     HomeComponent,
     LoginComponent,
     JogosComponent,
-    MenuComponent
+    MenuComponent,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,

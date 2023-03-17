@@ -20,6 +20,7 @@ import { JogosComponent } from './views/jogos/jogos.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './views/menu/menu.component';
 import { RodapeComponent } from './views/rodape/rodape.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { RodapeComponent } from './views/rodape/rodape.component';
     MatIconModule,
     MatMenuModule,
     MatToolbarModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

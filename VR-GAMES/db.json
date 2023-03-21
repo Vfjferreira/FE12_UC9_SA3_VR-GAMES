@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "email": "junior@gmil.com",
+      "password": "12345678",
+      "id": 2
+    },
+    {
+      "email": "jota@gmil.com",
+      "password": "252525",
+      "id": 3
+    },
+    {
+      "email": "pedro@gmil.com",
+      "password": "101010",
+      "id": 4
+    },
+    {
+      "email": "junliana@gmil.com",
+      "password": "2020202",
+      "id": 6
+    },
+    {
+      "email": "anonimo@gmaio.com",
+      "senha": "123456",
+      "id": 7
+    }
+  ]
+}

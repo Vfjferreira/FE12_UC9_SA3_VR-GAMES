@@ -3,10 +3,10 @@
         <h2>LOGIN</h2>
         <form #userForm="ngForm" (ngSubmit)="onSubmit()">
               <label for="email" class="">Email</label>
-              <input type="email" class="form-control" id="email" [(ngModel)]="userModel.email">
+              <input type="email" name="email" class="form-control" id="email" [(ngModel)]="userModel.email">
             <br>
               <label for="senha" class="">Senha</label>
-              <input type="password" class="form-control" id="senha" [(ngModel)]="userModel.senha">
+              <input type="password" name="password" class="form-control" id="senha" [(ngModel)]="userModel.senha">
             <br>
               <button type="submit" class="btn btn-primary mb-3">Login</button>
  
